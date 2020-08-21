@@ -236,12 +236,12 @@ extern void calibrateOscillator(void);
 
 /* -------------------------- Device Description --------------------------- */
 
-#define  USB_CFG_VENDOR_ID       0x81, 0x17
+#define  USB_CFG_VENDOR_ID       0xc0, 0x16
 /* USB vendor ID for the device, low byte first. If you have registered your
  * own Vendor ID, define it here. Otherwise you may use one of obdev's free
  * shared VID/PID pairs. Be sure to read USB-IDs-for-free.txt for rules!
  */
-#define  USB_CFG_DEVICE_ID       0xAB, 0x24
+#define  USB_CFG_DEVICE_ID       0xdb, 0x27
 /* This is the ID of the product, low byte first. It is interpreted in the
  * scope of the vendor ID. If you have registered your own VID with usb.org
  * or if you have licensed a PID from somebody else, define it here. Otherwise
@@ -255,8 +255,8 @@ extern void calibrateOscillator(void);
 #define USB_CFG_DEVICE_VERSION  0x00, 0x01
 /* Version number of the device: Minor number first, then major number.
  */
-#define USB_CFG_VENDOR_NAME     'A', 'd', 'a', 'f', 'r', 'u', 'i', 't'
-#define USB_CFG_VENDOR_NAME_LEN 8
+#define USB_CFG_VENDOR_NAME     'A', 'p', 'p', 'l', 'e'
+#define USB_CFG_VENDOR_NAME_LEN 5
 /* These two values define the vendor name returned by the USB device. The name
  * must be given as a list of characters under single quotes. The characters
  * are interpreted as Unicode (UTF-16) entities.
